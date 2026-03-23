@@ -93,17 +93,17 @@ function AboutPage() {
         <div className="team-grid">
           <div className="team-card">
             <div className="team-icon">👩</div>
-            <h3>Sarah Johnson</h3>
+            <h3>Reeti Patel</h3>
             <p>Lead Groomer</p>
           </div>
           <div className="team-card">
             <div className="team-icon">👨</div>
-            <h3>Mike Chen</h3>
+            <h3>Sujal Sevaramani</h3>
             <p>Senior Stylist</p>
           </div>
           <div className="team-card">
-            <div className="team-icon">👩</div>
-            <h3>Emma Davis</h3>
+            <div className="team-icon">👨</div>
+            <h3>Tirth Shah</h3>
             <p>Pet Care Specialist</p>
           </div>
         </div>
@@ -115,12 +115,12 @@ function AboutPage() {
 // SERVICES PAGE
 function ServicesPage() {
   const services = [
-    { icon: "🛁", name: "Basic Bath", desc: "Shampoo, conditioner, blow dry, and brush out", price: "$30" },
-    { icon: "✂️", name: "Full Grooming", desc: "Bath + haircut, nail trim, ear cleaning", price: "$55" },
-    { icon: "💆", name: "Spa Package", desc: "Full groom + teeth brushing, paw treatment", price: "$80" },
-    { icon: "🐾", name: "Nail Trim", desc: "Quick nail trimming and filing", price: "$15" },
-    { icon: "🦷", name: "Teeth Cleaning", desc: "Gentle brushing with pet-safe paste", price: "$20" },
-    { icon: "⭐", name: "De-shedding", desc: "Special treatment for heavy shedders", price: "$45" },
+    { icon: "🛁", name: "Basic Bath", desc: "Shampoo, conditioner, blow dry, and brush out", price: "₹500" },
+    { icon: "✂️", name: "Full Grooming", desc: "Bath + haircut, nail trim, ear cleaning", price: "₹900" },
+    { icon: "💆", name: "Spa Package", desc: "Full groom + teeth brushing, paw treatment", price: "₹1500" },
+    { icon: "🐾", name: "Nail Trim", desc: "Quick nail trimming and filing", price: "₹200" },
+    { icon: "🦷", name: "Teeth Cleaning", desc: "Gentle brushing with pet-safe paste", price: "₹300" },
+    { icon: "⭐", name: "De-shedding", desc: "Special treatment for heavy shedders", price: "₹700" },
   ];
 
   return (
@@ -190,11 +190,11 @@ function ContactPage() {
           <h2>Get in Touch</h2>
           <div className="info-item">
             <span>📍</span>
-            <p>123 Pet Street, Pawville, CA 90210</p>
+            <p>B Block, Satya Satsang Complex, Nana Bazaar, Anand 388315</p>
           </div>
           <div className="info-item">
             <span>📞</span>
-            <p>(555) 123-4567</p>
+            <p>+91 98765 43210</p>
           </div>
           <div className="info-item">
             <span>✉️</span>
