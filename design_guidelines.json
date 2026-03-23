@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "name": "PawFect Grooming",
+    "tagline": "Where Every Pet Gets the Royal Treatment",
+    "tone": "Friendly, Clean, Trustworthy, Playful"
+  },
+  "typography": {
+    "heading_font": "'Fredoka', sans-serif",
+    "body_font": "'Quicksand', sans-serif",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Quicksand:wght@300;400;500;600&display=swap",
+    "scale": {
+      "h1": "3.5rem",
+      "h2": "2.5rem",
+      "h3": "1.75rem",
+      "p": "1.125rem",
+      "small": "0.875rem"
+    }
+  },
+  "colors": {
+    "background": "#FFFDF5",
+    "surface": "#FFFFFF",
+    "primary": "#B5EAD7",
+    "primary_dark": "#9FD8C4",
+    "secondary": "#FFDAC1",
+    "accent": "#C7CEEA",
+    "text_main": "#4A4A4A",
+    "text_light": "#7A7A7A",
+    "border": "#E2E8F0",
+    "success": "#A8E6CF",
+    "error": "#FFB7B2"
+  },
+  "layout": {
+    "container_max_width": "1200px",
+    "section_padding": "4rem 2rem",
+    "card_padding": "2rem",
+    "border_radius": {
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "pill": "9999px"
+    },
+    "spacing": {
+      "xs": "0.5rem",
+      "sm": "1rem",
+      "md": "2rem",
+      "lg": "4rem",
+      "xl": "6rem"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "background-color: var(--primary); color: var(--text-main); padding: 12px 32px; border-radius: 50px; font-weight: 600; border: none; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;",
+      "secondary": "background-color: white; color: var(--text-main); border: 2px solid var(--primary); padding: 10px 30px; border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;"
+    },
+    "cards": {
+      "style": "background: white; border-radius: 24px; padding: 2rem; box-shadow: 0 10px 30px rgba(181, 234, 215, 0.2); transition: transform 0.3s ease;",
+      "hover": "transform: translateY(-5px);"
+    },
+    "navbar": {
+      "style": "position: sticky; top: 0; background: rgba(255, 253, 245, 0.9); backdrop-filter: blur(10px); z-index: 1000; box-shadow: 0 2px 20px rgba(0,0,0,0.05); padding: 1rem 0;"
+    }
+  },
+  "visual_enhancers": {
+    "shadows": {
+      "soft": "0 4px 20px rgba(0,0,0,0.05)",
+      "hover": "0 10px 25px rgba(0,0,0,0.1)"
+    },
+    "animations": {
+      "fade_in": "animation: fadeIn 0.8s ease-out forwards;",
+      "float": "animation: float 3s ease-in-out infinite;"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1586836605934-c8fe00a0de4e",
+      "about_story": "https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "service_bath": "https://images.unsplash.com/photo-1583534778255-5d67d3dcf95d",
+      "service_groom": "https://images.unsplash.com/photo-1674833442464-1a9acfa9fa11",
+      "service_style": "https://images.pexels.com/photos/19145898/pexels-photo-19145898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "gallery_1": "https://images.unsplash.com/photo-1722426874719-d8aa92ff7f2d",
+      "gallery_2": "https://images.unsplash.com/photo-1577954856942-a86cd582c42c",
+      "gallery_3": "https://images.unsplash.com/photo-1723639418929-6ad8caa93a6e",
+      "gallery_4": "https://images.unsplash.com/photo-1740122134486-612bd9d03f21"
+    },
+    "icons": "Use FontAwesome (CDN) or simple SVGs for icons like scissors, soap, paw prints."
+  },
+  "instructions_to_main_agent": [
+    "1. PURE HTML/CSS/JS ONLY: Do not use React, Vue, Tailwind, or any build tools.",
+    "2. FILE STRUCTURE: Create 5 HTML files (index.html, about.html, services.html, gallery.html, contact.html), 1 CSS file (style.css), and 1 JS file (script.js).",
+    "3. RESPONSIVE DESIGN: Use CSS Media Queries (@media (max-width: 768px)) to ensure mobile responsiveness. The nav menu should become a hamburger menu or simple stack on mobile.",
+    "4. NAVIGATION: The same navigation bar code should be present in all HTML files (or loaded via JS if you want to be fancy, but keeping it in HTML is simpler for beginners as requested). Active state must be highlighted.",
+    "5. FORM: The contact form doesn't need a backend. Just make it look functional (e.g., preventDefault on submit and show an alert).",
+    "6. ACCESSIBILITY: Use semantic tags (<header>, <nav>, <main>, <section>, <footer>) and alt text for all images.",
+    "7. PASTE THE CSS VARIABLES: Start style.css with the :root variables defined in the colors section above.",
+    "8. TESTID: Add data-testid='...' to all buttons and links."
+  ],
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": {
+    "design_philosophy": "Soft, rounded, and breathable. Avoid sharp corners.",
+    "interaction": "Every button should scale slightly (0.98) on click. Links should have a color change on hover.",
+    "code_style": "Clean, indented HTML. CSS grouped by section (Header, Hero, Services, etc.)."
+  }
+}
