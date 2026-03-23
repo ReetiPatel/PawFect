@@ -1,20 +1,11 @@
-// Mobile Menu Toggle
-const menuBtn = document.querySelector('.menu-btn');
-const navLinks = document.querySelector('.nav-links');
+// Simple JavaScript for Contact Form
 
-if (menuBtn) {
-    menuBtn.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-}
+var form = document.getElementById('contactForm');
 
-// Contact Form Handler
-const contactForm = document.getElementById('contactForm');
-
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
+if (form) {
+    form.onsubmit = function(e) {
         e.preventDefault();
         alert('Thank you for your message! We will get back to you soon.');
-        contactForm.reset();
-    });
+        form.reset();
+    };
 }

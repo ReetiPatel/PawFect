@@ -4,66 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PawFect Grooming - Contact</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">🐾 PawFect</div>
-            <ul class="nav-links">
-                <li><a href="index.html" data-testid="nav-home">Home</a></li>
-                <li><a href="about.html" data-testid="nav-about">About</a></li>
-                <li><a href="services.html" data-testid="nav-services">Services</a></li>
-                <li><a href="gallery.html" data-testid="nav-gallery">Gallery</a></li>
-                <li><a href="contact.html" class="active" data-testid="nav-contact">Contact</a></li>
-            </ul>
-            <button class="menu-btn" data-testid="menu-btn"><i class="fas fa-bars"></i></button>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">PawFect</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
 
-    <main>
-        <section class="page-header">
-            <h1>Contact Us</h1>
-        </section>
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+    </section>
 
-        <section class="contact-content">
-            <div class="contact-info">
-                <h2>Get in Touch</h2>
-                <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>123 Pet Street, Pawville, CA 90210</p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-phone"></i>
-                    <p>(555) 123-4567</p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>hello@pawfect.com</p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-clock"></i>
-                    <p>Mon-Sat: 9AM - 6PM</p>
-                </div>
-            </div>
+    <!-- Contact Content -->
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong> B Block, Satya Satsang Complex, Nana Bazaar, Anand 388315</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Email:</strong> hello@pawfect.com</p>
+            <p><strong>Hours:</strong> Mon-Sat: 9AM - 6PM</p>
+        </div>
 
-            <div class="contact-form">
-                <h2>Send a Message</h2>
-                <form id="contactForm" data-testid="contact-form">
-                    <input type="text" placeholder="Your Name" required data-testid="input-name">
-                    <input type="email" placeholder="Your Email" required data-testid="input-email">
-                    <input type="text" placeholder="Subject" data-testid="input-subject">
-                    <textarea placeholder="Your Message" rows="5" required data-testid="input-message"></textarea>
-                    <button type="submit" class="btn" data-testid="submit-btn">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </main>
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 PawFect Grooming. All rights reserved.</p>
+        <p>© 2024 PawFect Grooming. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>

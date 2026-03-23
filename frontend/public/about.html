@@ -4,67 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PawFect Grooming - About</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">🐾 PawFect</div>
-            <ul class="nav-links">
-                <li><a href="index.html" data-testid="nav-home">Home</a></li>
-                <li><a href="about.html" class="active" data-testid="nav-about">About</a></li>
-                <li><a href="services.html" data-testid="nav-services">Services</a></li>
-                <li><a href="gallery.html" data-testid="nav-gallery">Gallery</a></li>
-                <li><a href="contact.html" data-testid="nav-contact">Contact</a></li>
-            </ul>
-            <button class="menu-btn" data-testid="menu-btn"><i class="fas fa-bars"></i></button>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">PawFect</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <main>
-        <section class="page-header">
-            <h1>About Us</h1>
-        </section>
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>About Us</h1>
+    </section>
 
-        <section class="about-content">
-            <div class="about-text">
-                <h2>Our Story</h2>
-                <p>Founded in 2020, PawFect Grooming started with a simple mission: to provide loving, professional grooming services for pets of all sizes.</p>
-                <p>Our team of certified groomers has over 15 years of combined experience. We use only the finest, pet-safe products to ensure your furry friend leaves looking and feeling their best.</p>
+    <!-- About Content -->
+    <section class="about">
+        <div class="about-text">
+            <h2>Our Story</h2>
+            <p>Founded in 2020, PawFect Grooming started with a simple mission: to provide loving, professional grooming services for pets of all sizes.</p>
+            <p>Our team of certified groomers has over 15 years of combined experience. We use only the finest, pet-safe products.</p>
+        </div>
+        <div class="about-image">
+            <img src="https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pet grooming">
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="card">
+                <h3>Reeti Patel</h3>
+                <p>Lead Groomer</p>
             </div>
-            <div class="about-image">
-                <img src="https://images.pexels.com/photos/6131578/pexels-photo-6131578.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pet grooming">
+            <div class="card">
+                <h3>Sujal Sevaramani</h3>
+                <p>Senior Stylist</p>
             </div>
-        </section>
-
-        <section class="team">
-            <h2>Meet Our Team</h2>
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="team-icon"><i class="fas fa-user"></i></div>
-                    <h3>Sarah Johnson</h3>
-                    <p>Lead Groomer</p>
-                </div>
-                <div class="team-card">
-                    <div class="team-icon"><i class="fas fa-user"></i></div>
-                    <h3>Mike Chen</h3>
-                    <p>Senior Stylist</p>
-                </div>
-                <div class="team-card">
-                    <div class="team-icon"><i class="fas fa-user"></i></div>
-                    <h3>Emma Davis</h3>
-                    <p>Pet Care Specialist</p>
-                </div>
+            <div class="card">
+                <h3>Tirth Shah</h3>
+                <p>Pet Care Specialist</p>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 PawFect Grooming. All rights reserved.</p>
+        <p>© 2024 PawFect Grooming. All rights reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
