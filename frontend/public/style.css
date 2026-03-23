@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #FFFDF5;
+    background: #FFF5F5;
     color: #4A4A4A;
 }
 
@@ -41,14 +41,14 @@ nav a {
 }
 
 nav a:hover, nav a.active {
-    background: #B5EAD7;
+    background: #FFB6C1;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background: linear-gradient(135deg, #B5EAD7, #FFDAC1);
+    background: linear-gradient(135deg, #FFB6C1, #FFDAB9);
 }
 
 .hero h1 {
@@ -110,7 +110,7 @@ nav a:hover, nav a.active {
 .page-header {
     text-align: center;
     padding: 50px 20px;
-    background: #C7CEEA;
+    background: #FFD1DC;
 }
 
 .page-header h1 {
@@ -134,7 +134,7 @@ nav a:hover, nav a.active {
 }
 
 .about-text h2 {
-    color: #9FD8C4;
+    color: #E75480;
     margin-bottom: 15px;
 }
 
@@ -156,7 +156,7 @@ nav a:hover, nav a.active {
 }
 
 .team h2 {
-    color: #9FD8C4;
+    color: #E75480;
     margin-bottom: 30px;
 }
 
@@ -178,7 +178,7 @@ nav a:hover, nav a.active {
 
 .price {
     display: inline-block;
-    background: #FFDAC1;
+    background: #FFB6C1;
     padding: 8px 20px;
     border-radius: 15px;
     font-weight: bold;
@@ -218,7 +218,7 @@ nav a:hover, nav a.active {
 }
 
 .contact-info h2, .contact-form h2 {
-    color: #9FD8C4;
+    color: #E75480;
     margin-bottom: 20px;
 }
 
@@ -239,7 +239,7 @@ nav a:hover, nav a.active {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #B5EAD7;
+    border-color: #FFB6C1;
 }
 
 /* Footer */
