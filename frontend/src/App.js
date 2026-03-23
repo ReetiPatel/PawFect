@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "@/App.css";
+import { Heart, Award, Leaf, Bath, Scissors, Sparkles, PawPrint, Smile, Star, MapPin, Phone, Mail, Clock, User } from "lucide-react";
 
 // Simple Pet Grooming Website with 5 Pages
 function App() {
@@ -10,7 +11,7 @@ function App() {
       {/* Navigation */}
       <header>
         <nav>
-          <div className="logo">🐾 PawFect</div>
+          <div className="logo"><PawPrint size={24} /> PawFect</div>
           <ul className="nav-links">
             <li><a href="#" className={currentPage === "home" ? "active" : ""} onClick={() => setCurrentPage("home")} data-testid="nav-home">Home</a></li>
             <li><a href="#" className={currentPage === "about" ? "active" : ""} onClick={() => setCurrentPage("about")} data-testid="nav-about">About</a></li>
@@ -50,17 +51,17 @@ function HomePage() {
 
       <section className="features">
         <div className="feature-card">
-          <span className="icon">❤️</span>
+          <Heart className="icon" size={40} />
           <h3>Loving Care</h3>
           <p>We treat every pet like family</p>
         </div>
         <div className="feature-card">
-          <span className="icon">🏆</span>
+          <Award className="icon" size={40} />
           <h3>Expert Groomers</h3>
           <p>Certified professionals</p>
         </div>
         <div className="feature-card">
-          <span className="icon">🌿</span>
+          <Leaf className="icon" size={40} />
           <h3>Natural Products</h3>
           <p>Safe & gentle supplies</p>
         </div>
@@ -92,17 +93,17 @@ function AboutPage() {
         <h2>Meet Our Team</h2>
         <div className="team-grid">
           <div className="team-card">
-            <div className="team-icon">👩</div>
+            <div className="team-icon"><User size={32} /></div>
             <h3>Reeti Patel</h3>
             <p>Lead Groomer</p>
           </div>
           <div className="team-card">
-            <div className="team-icon">👨</div>
+            <div className="team-icon"><User size={32} /></div>
             <h3>Sujal Sevaramani</h3>
             <p>Senior Stylist</p>
           </div>
           <div className="team-card">
-            <div className="team-icon">👨</div>
+            <div className="team-icon"><User size={32} /></div>
             <h3>Tirth Shah</h3>
             <p>Pet Care Specialist</p>
           </div>
@@ -115,12 +116,12 @@ function AboutPage() {
 // SERVICES PAGE
 function ServicesPage() {
   const services = [
-    { icon: "🛁", name: "Basic Bath", desc: "Shampoo, conditioner, blow dry, and brush out", price: "₹500" },
-    { icon: "✂️", name: "Full Grooming", desc: "Bath + haircut, nail trim, ear cleaning", price: "₹900" },
-    { icon: "💆", name: "Spa Package", desc: "Full groom + teeth brushing, paw treatment", price: "₹1500" },
-    { icon: "🐾", name: "Nail Trim", desc: "Quick nail trimming and filing", price: "₹200" },
-    { icon: "🦷", name: "Teeth Cleaning", desc: "Gentle brushing with pet-safe paste", price: "₹300" },
-    { icon: "⭐", name: "De-shedding", desc: "Special treatment for heavy shedders", price: "₹700" },
+    { Icon: Bath, name: "Basic Bath", desc: "Shampoo, conditioner, blow dry, and brush out", price: "₹500" },
+    { Icon: Scissors, name: "Full Grooming", desc: "Bath + haircut, nail trim, ear cleaning", price: "₹900" },
+    { Icon: Sparkles, name: "Spa Package", desc: "Full groom + teeth brushing, paw treatment", price: "₹1500" },
+    { Icon: PawPrint, name: "Nail Trim", desc: "Quick nail trimming and filing", price: "₹200" },
+    { Icon: Smile, name: "Teeth Cleaning", desc: "Gentle brushing with pet-safe paste", price: "₹300" },
+    { Icon: Star, name: "De-shedding", desc: "Special treatment for heavy shedders", price: "₹700" },
   ];
 
   return (
@@ -132,7 +133,7 @@ function ServicesPage() {
       <section className="services-grid">
         {services.map((s, i) => (
           <div className="service-card" key={i}>
-            <div className="service-icon">{s.icon}</div>
+            <div className="service-icon"><s.Icon size={28} /></div>
             <h3>{s.name}</h3>
             <p>{s.desc}</p>
             <span className="price">{s.price}</span>
@@ -189,19 +190,19 @@ function ContactPage() {
         <div className="contact-info">
           <h2>Get in Touch</h2>
           <div className="info-item">
-            <span>📍</span>
+            <div className="info-icon"><MapPin size={20} /></div>
             <p>B Block, Satya Satsang Complex, Nana Bazaar, Anand 388315</p>
           </div>
           <div className="info-item">
-            <span>📞</span>
+            <div className="info-icon"><Phone size={20} /></div>
             <p>+91 98765 43210</p>
           </div>
           <div className="info-item">
-            <span>✉️</span>
+            <div className="info-icon"><Mail size={20} /></div>
             <p>hello@pawfect.com</p>
           </div>
           <div className="info-item">
-            <span>🕐</span>
+            <div className="info-icon"><Clock size={20} /></div>
             <p>Mon-Sat: 9AM - 6PM</p>
           </div>
         </div>

@@ -157,6 +157,7 @@ main {
   font-size: 2.5rem;
   display: block;
   margin-bottom: 1rem;
+  color: var(--primary-dark);
 }
 
 .feature-card h3 {
@@ -275,8 +276,16 @@ main {
 }
 
 .service-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  width: 70px;
+  height: 70px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+  color: var(--text);
 }
 
 .service-card h3 {
@@ -348,8 +357,15 @@ main {
   margin-bottom: 1.5rem;
 }
 
-.info-item span {
-  font-size: 1.5rem;
+.info-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .contact-form form {
