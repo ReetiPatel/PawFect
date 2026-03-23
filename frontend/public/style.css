@@ -7,9 +7,13 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background: #FFF5F5;
     color: #4A4A4A;
+}
+
+h1, h2, h3 {
+    font-family: 'Fredoka', sans-serif;
 }
 
 /* Navigation */
